@@ -128,3 +128,5 @@ app.listen(PORT, function () {
   console.log(`server running on port ${PORT}`);
   console.log(`gql path is ${apolloServer.graphqlPath}`);
 });
+
+module.exports = app;
